@@ -60,6 +60,9 @@ export async function POST(req: Request) {
   •	Overall, demonstrates appropriate surgical judgment, clinical reasoning skills, and problem-solving ability.
   `
 
+  
+  messages.unshift({"role": "system", "content": introPrompt})
+
   const res = await openai.createChatCompletion({
     model: 'gpt-4',
     messages,
