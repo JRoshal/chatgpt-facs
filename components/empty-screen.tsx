@@ -6,16 +6,20 @@ import { IconArrowRight } from '@/components/ui/icons'
 
 const exampleMessages = [
   {
-    heading: 'Explain technical concepts',
-    message: `What is a "serverless function"?`
+    heading: 'EPA #1: RLQ Pain and Appendicitis',
+    message: `A 25-year-old female presents with right lower quadrant abdominal pain.`
   },
   {
-    heading: 'Summarize an article',
-    message: 'Summarize the following article for a 2nd grader: \n'
+    heading: 'EPA #2: Benign or Malignant Breast Disease',
+    message: 'A 49-year-old female presents with a right-sided breast lump.'
   },
   {
-    heading: 'Draft an email',
-    message: `Draft an email to my boss about the following: \n`
+    heading: 'EPA #3: Gallbladder Disease',
+    message: `A 65-year-old male presents with right upper quadrant abdominal pain and jaundice.`
+  },
+  {
+    heading: 'EPA #4: Acute Abdomen',
+    message: `A 56-year-old female presents with sudden-onse severe abdominal pain.`
   }
 ]
 
